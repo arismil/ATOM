@@ -10,10 +10,10 @@ Original file is located at
 """
 import os
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import sys
 
-sys.path.append("C:/Users/aris/PycharmProjects/tracking/ATOM/utils")
+sys.path.append("../ATOM/utils")
 
 # Commented out IPython magic to ensure Python compatibility.
 # %tensorflow_version 1.x
